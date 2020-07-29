@@ -1,26 +1,24 @@
-# UserbotIndoBot
+# NISA
 Telegram modular Python bot berjalan di python3 dengan database sqlalchemy.
 
 Based on [marie bot](https://github.com/PaulSonOfLars/tgbot) and [EmiliaHikariBot](https://github.com/AyraHikari/EmiliaHikariBot)
 
-[Read english README](https://github.com/MoveAngel/UserbotindoBot/blob/master/README.en.md)
+[Read english README](https://github.com/agung-762/NISA/blob/master/README.en.md)
 
-**If you want to translate this bot**, [please go here](https://github.com/MoveAngel/UserbotindoBot/blob/master/TRANSLATION.md)
+**If you want to translate this bot**, [please go here](https://github.com/agung-762/NISA/blob/master/TRANSLATION.md)
 
-Dapat ditemukan di telegram sebagai [UserbotindoBot](https://t.me/userbotindobot).
+Dapat ditemukan di telegram sebagai [NISA](https://t.me/NLydW_Bot).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agung-762/NISA.git)
 
 
 # source info
 
 Awalnya bot manajemen grup sederhana dengan beberapa fitur admin, telah berevolusi, menjadi sangat modular dan
 
-Marie dan saya sedang memoderasi [support group](https://t.me/Userbotindo), di mana Anda dapat meminta bantuan untuk mengaturnya
+Marie dan saya sedang memoderasi [support group](https://t.me/NLydW_Bot), di mana Anda dapat meminta bantuan untuk mengaturnya
 bot, temukan / minta fitur baru, laporkan bug, dan tetap di dalam pengulangan setiap kali pembaruan baru tersedia. Tentu saja
 Saya juga akan membantu ketika skema database berubah, dan beberapa kolom tabel perlu dimodifikasi/ditambahkan. Catatan untuk pengelola bahwa semua perubahan skema akan ditemukan dalam pesan commit, dan tanggung jawab mereka untuk membaca setiap commit baru.
-
-Bergabunglah dengan [Cloud Channel & Support](https://t.me/userbotindocloud) jika Anda hanya ingin tetap di loop tentang fitur-fitur baru atau pengumuman.
-
-Kalau tidak, [temukan aku di telegram](https://t.me/MoveAngel)! (Simpan semua pertanyaan dukungan dalam obrolan dukungan, tempat lebih banyak orang dapat membantu Anda.)
 
 Catatan untuk pengelola bahwa semua perubahan skema akan ditemukan dalam pesan komit, dan tanggung jawabnya untuk membaca komitmen baru.
 
