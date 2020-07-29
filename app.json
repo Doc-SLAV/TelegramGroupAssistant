@@ -9,7 +9,7 @@
       "manager",
       "3"
     ],
-    "repository": "hhttps://github.com/MoveAngel/UserbotindoBot",
+    "repository": "https://github.com/agung-762/NISA",
     "env": {
       "ENV": {
         "description": "Setting this to ANYTHING will enable env variables",
@@ -25,7 +25,7 @@
       },
       "OWNER_USERNAME": {
         "description": "Your username",
-        "value": "MoveAngel"
+        "value": "NLydiaW"
       },
       "WEBHOOK": {
         "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -53,7 +53,7 @@
       },
       "DONATION_LINK": {
         "description": "Optional: link where you would like to receive donations.",
-        "value": "https://www.paypal.me/MoveAngel"
+        "value": "DAAFbVSmv6gdvpxQMqW7F2qrHcTzZnN8sD"
       },
       "PORT": {
         "description": "Port to use for your webhooks",
@@ -80,7 +80,7 @@
       {
         "plan": "heroku-postgresql",
         "options": {
-          "version": "9.5"
+          "version": "12"
         }
       }
     ]
