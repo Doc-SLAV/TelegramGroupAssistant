@@ -1,5 +1,3 @@
-# Last.fm module by @TheRealPhoenix - https://github.com/rsktg
-
 import requests
 
 from telegram import Bot, Update, Message, Chat, ParseMode
@@ -8,7 +6,7 @@ from telegram.ext import run_async, CommandHandler
 from emilia import dispatcher, LASTFM_API_KEY
 from emilia.modules.disable import DisableAbleCommandHandler
 
-import tg_bot.modules.sql.last_fm_sql as sql
+import emilia.modules.sql.last_fm_sql as sql
 
 
 @run_async
