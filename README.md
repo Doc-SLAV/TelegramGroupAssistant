@@ -9,7 +9,7 @@ Based on [marie bot](https://github.com/PaulSonOfLars/tgbot) and [EmiliaHikariBo
 
 Dapat ditemukan di telegram sebagai [NISA](https://t.me/NLydW_Bot).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agung-762/NISA.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agung267/NISA.git)
 
 
 # source info
