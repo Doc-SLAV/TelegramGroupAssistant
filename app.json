@@ -1,6 +1,6 @@
 
 {
-    "name": "NISA",
+    "name": "Dayana",
     "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
     "keywords": [
       "telegram",
@@ -17,15 +17,15 @@
       },
       "TOKEN": {
         "description": "Your bot token, as a string.",
-        "value": "1029126315:AAHU3zFJGQhfjdJnC1OaVYWQdvxLSrJLQVY"
+        "value": "1664945431:AAEqEpkYftfGofcW81mw0YWaqAuHBf4SdnA"
       },
       "OWNER_ID": {
         "description": "An integer of consisting of your owner ID",
-        "value": "1154565101"
+        "value": "1330133497"
       },
       "OWNER_USERNAME": {
         "description": "Your username",
-        "value": "NLydiaW"
+        "value": "AkuSiapaV2"
       },
       "WEBHOOK": {
         "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
