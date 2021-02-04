@@ -3,11 +3,11 @@ Telegram modular Python bot berjalan di python3 dengan database sqlalchemy.
 
 Based on [marie bot](https://github.com/PaulSonOfLars/tgbot) and [EmiliaHikariBot](https://github.com/AyraHikari/EmiliaHikariBot)
 
-[Read english README](https://github.com/agung-762/NISA/blob/master/README.en.md)
+[Read english README](https://github.com/ronaldyganteng/NAYLA/blob/master/README.en.md)
 
 **If you want to translate this bot**, [please go here](https://github.com/agung-762/NISA/blob/master/TRANSLATION.md)
 
-Dapat ditemukan di telegram sebagai [NISA](https://t.me/NLydW_Bot).
+Dapat ditemukan di telegram sebagai [NAYLA](https://t.me/Naylasilvianibot).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agung267/NISA.git)
 
