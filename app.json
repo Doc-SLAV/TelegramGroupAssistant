@@ -9,7 +9,7 @@
       "manager",
       "3"
     ],
-    "repository": "https://github.com/ronaldyganteng/NAYLA”,
+    "repository":
     "env": {
       "ENV": {
         "description": "Setting this to ANYTHING will enable env variables",
@@ -33,7 +33,7 @@
       },
       "URL": {
         "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-        "value": ""
+        "value":
       },
       "MESSAGE_DUMP": {
         "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
