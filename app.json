@@ -1,6 +1,6 @@
 
 {
-    "name": "Dayana",
+    "name": "Nayla",
     "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
     "keywords": [
       "telegram",
@@ -9,7 +9,7 @@
       "manager",
       "3"
     ],
-    "repository": "https://github.com/agung267/NISA",
+    "repository": "https://github.com/ronaldyganteng/NAYLA”,
     "env": {
       "ENV": {
         "description": "Setting this to ANYTHING will enable env variables",
@@ -17,15 +17,15 @@
       },
       "TOKEN": {
         "description": "Your bot token, as a string.",
-        "value": "1664945431:AAEqEpkYftfGofcW81mw0YWaqAuHBf4SdnA"
+        "value": "1664664230:AAEZ1XJ4a6c_c5k_ZroBD9ugr9u438--4H0"
       },
       "OWNER_ID": {
         "description": "An integer of consisting of your owner ID",
-        "value": "1330133497"
+        "value": "1234372002"
       },
       "OWNER_USERNAME": {
         "description": "Your username",
-        "value": "AkuSiapaV2"
+        "value": "sayangkegw"
       },
       "WEBHOOK": {
         "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -33,11 +33,11 @@
       },
       "URL": {
         "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-        "value": "https://nisaceue.herokuapp.com/"
+        "value": "https://ronalrudin.herokuapp.com/"
       },
       "MESSAGE_DUMP": {
         "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-        "value": "-1001412355879"
+        "value": "-100572187206"
       },
       "YOUTUBE_API_KEY": {
         "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
@@ -45,15 +45,15 @@
       },
       "SUDO_USERS": {
         "description": "A space separated list of user_ids which should be considered sudo users",
-        "value": "1032393998"
+        "value": "1584233188"
       },
       "SUPPORT_USERS": {
         "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-        "value": "1032393998"
+        "value": "1584233188"
       },
       "WHITELIST_USERS": {
         "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-        "value": "1032393998"
+        "value": "1584233188"
       },
       "DONATION_LINK": {
         "description": "Optional: link where you would like to receive donations.",
