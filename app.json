@@ -33,7 +33,7 @@
       },
       "URL": {
         "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-        "value":
+        "value": "https://nisaceue.herokuapp.com/"
       },
       "MESSAGE_DUMP": {
         "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -49,11 +49,11 @@
       },
       "SUPPORT_USERS": {
         "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-        "value": ""
+        "value": "1032393998"
       },
       "WHITELIST_USERS": {
         "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-        "value": ""
+        "value": "1032393998"
       },
       "DONATION_LINK": {
         "description": "Optional: link where you would like to receive donations.",
