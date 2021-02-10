@@ -150,10 +150,10 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🎉 Add me to your group", url="https://t.me/Naylasilvianibot?startgroup=new")],
-                [InlineKeyboardButton(text="💭 Language", callback_data="main_setlang"), InlineKeyboardButton(text="⚙️ Connect Group", callback_data="main_connect")],
-                [InlineKeyboardButton(text="👥 Support Group", url="http://t.me/humangabutguys"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/captionanakmuda")],
-                [InlineKeyboardButton(text="❓ Help", url="https://t.me/Naylasilvianibot?start=help"), InlineKeyboardButton(text="💖 Donate", url="http://paypal.me/AIrvandi")]])
+                [[InlineKeyboardButton(text="TAMBAHKAN AKU DIGRUP KAMU DONG! 🧸", url="https://t.me/Naylasilvianibot?startgroup=new")],
+                [InlineKeyboardButton(text="SETELAN BAHASA! 📚", callback_data="main_setlang"), InlineKeyboardButton(text="KONEKSI GRUP! ⚙️", callback_data="main_connect")],
+                [InlineKeyboardButton(text="SUPPORT GRUP! 💊", url="http://t.me/humangabutguys"), InlineKeyboardButton(text="UPDATE CHANNEL! 💎", url="https://t.me/captionanakmuda")],
+                [InlineKeyboardButton(text="PERTOLOGAN! 🛠", url="https://t.me/Naylasilvianibot?start=help"), InlineKeyboardButton(text="DONASI BOT ✨", url="http://paypal.me/AIrvandi")]])
             update.effective_message.reply_text(
                 tl(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
