@@ -42,7 +42,7 @@ def no_longer_afk(bot: Bot, update: Update):
 
     res = sql.rm_afk(user.id)
     if res:
-        send_message(update.effective_message, tl(update.effective_message, "{} Ehh Dia Hidup Lagi, Kenapa Lu Mesti Hidup Lagi Sii! 😭😂!").format(update.effective_user.first_name))
+        send_message(update.effective_message, tl(update.effective_message, "{} Ehh Dia Hidup Lagi, Kenapa Lu Mesti Hidup Lagi Sii!! 😭😂").format(update.effective_user.first_name))
 
 
 @run_async
