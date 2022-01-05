@@ -6,8 +6,8 @@ from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, BigInteger
 from emilia.modules.helper_funcs.msg_types import Types
 from emilia.modules.sql import SESSION, BASE
 
-DEFAULT_WELCOME = "Hai {first}, bagaimana kabarmu? 🙂"
-DEFAULT_GOODBYE = "Sampai jumpa! 😉"
+DEFAULT_WELCOME = "Hai {first}, Selamat Datang ! 🙂"
+DEFAULT_GOODBYE = "Sampai jumpa ! 😉"
 
 
 class Welcome(BASE):
