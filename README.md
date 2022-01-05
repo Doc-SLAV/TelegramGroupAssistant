@@ -3,20 +3,20 @@ Telegram modular Python bot berjalan di python3 dengan database sqlalchemy.
 
 Based on [marie bot](https://github.com/PaulSonOfLars/tgbot) and [EmiliaHikariBot](https://github.com/AyraHikari/EmiliaHikariBot)
 
-[Read english README](https://github.com/ronaldyganteng/NAYLA/blob/master/README.en.md)
+[Read english README](https://github.com/zack-opp47/TelegramGroupAssistant/blob/master/README.en.md)
 
-**If you want to translate this bot**, [please go here](https://github.com/agung-762/NISA/blob/master/TRANSLATION.md)
+**If you want to translate this bot**, [please go here](https://github.com/zack-opp47/TelegramGroupAssistant/blob/master/TRANSLATION.md)
 
-Dapat ditemukan di telegram sebagai [NAYLA](https://t.me/Naylasilvianibot).
+Dapat ditemukan di telegram sebagai [Doctor SLAV](https://t.me/Doc_SLAVbot).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ronaldyganteng/NISA.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zack-opp47/TelegramGroupAssistant.git)
 
 
 # source info
 
 Awalnya bot manajemen grup sederhana dengan beberapa fitur admin, telah berevolusi, menjadi sangat modular dan
 
-Marie dan saya sedang memoderasi [support group](https://t.me/NLydW_Bot), di mana Anda dapat meminta bantuan untuk mengaturnya
+Marie dan saya sedang memoderasi [support Channel](https://t.me/Doc_SLAVCH), di mana Anda dapat meminta bantuan untuk mengaturnya
 bot, temukan / minta fitur baru, laporkan bug, dan tetap di dalam pengulangan setiap kali pembaruan baru tersedia. Tentu saja
 Saya juga akan membantu ketika skema database berubah, dan beberapa kolom tabel perlu dimodifikasi/ditambahkan. Catatan untuk pengelola bahwa semua perubahan skema akan ditemukan dalam pesan commit, dan tanggung jawab mereka untuk membaca setiap commit baru.
 
@@ -183,4 +183,5 @@ Thanks to this user:
 - [Paul Larsen](https://github.com/PaulSonOfLars) - marie creator, inspiration to do many things
 - [Yan Gorobtsov](https://github.com/MrYacha) - for welcome security base and connection base and maybe others
 - [アキト ミズキト](https://github.com/peaktogoo) - for reworked federation module
-- [AyraHikari](https://github.com/AyraHikari) - for a great source .. thanks u so much
+- [AyraHikari](https://github.com/AyraHikari) - for a great source .. thanaks u so much
+
