@@ -26,12 +26,12 @@ from emilia.modules.languages import set_language
 
 PM_START_TEXT = """
 Hi {}, my name is {}! If you have any questions on how to use me, read /help.
-Don't forget follow my channel @humangabutguys for news update.
+Don't forget follow my channel @Doc_SLAVCH for news update.
 You can find the list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is **NAYLA**.
+Hey there! My name is **Doctor SLAV**.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 """
@@ -41,7 +41,9 @@ DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for my creator to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/AIrvandi)."""
+There are two ways of paying him;
+[Tron/TRX](https://link.trustwallet.com/send?coin=195&address=TBeNr2f5nqTwqdzzoKH1CWRnEJs54YGZzh&amount=5.0)
+[BNB/BEP20](https://link.trustwallet.com/send?coin=20000714&address=0xa1Ba4b719851C3D144dc6368581B187b108047B4&amount=0.001)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -150,10 +152,10 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="TAMBAHKAN AKU DIGRUP KAMU DONG! 🧸", url="https://t.me/Naylasilvianibot?startgroup=new")],
-                [InlineKeyboardButton(text="SETELAN BAHASA! 📚", callback_data="main_setlang"), InlineKeyboardButton(text="KONEKSI GRUP! ⚙️", callback_data="main_connect")],
-                [InlineKeyboardButton(text="SUPPORT GRUP! 💊", url="http://t.me/humangabutguys"), InlineKeyboardButton(text="UPDATE CHANNEL! 💎", url="https://t.me/captionanakmuda")],
-                [InlineKeyboardButton(text="PERTOLOGAN! 🛠", url="https://t.me/Naylasilvianibot?start=help"), InlineKeyboardButton(text="DONASI BOT ✨", url="http://paypal.me/AIrvandi")]])
+                [[InlineKeyboardButton(text="TAMBAHKAN SAYA DIGRUPMU 📝", url="https://t.me/Doc_SLAVbot?startgroup=new")],
+                [InlineKeyboardButton(text="SETELAN BAHASA 📚", callback_data="main_setlang"), InlineKeyboardButton(text="KONEKSI GRUP! ⚙️", callback_data="main_connect")],
+                [InlineKeyboardButton(text="SUPPORT CHANNEL 📢", url="http://t.me/Doc_SLAVCH"), InlineKeyboardButton(text="UPDATE CHANNEL! 💎", url="https://t.me/captionanakmuda")],
+                [InlineKeyboardButton(text="BANTUAN 🛠", url="https://t.me/Doc_SLAVbot?start=help"), InlineKeyboardButton(text="DONASI BOT ✨", url="http://paypal.me/AIrvandi")]])
             update.effective_message.reply_text(
                 tl(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
